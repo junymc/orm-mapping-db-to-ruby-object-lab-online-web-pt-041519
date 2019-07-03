@@ -5,6 +5,7 @@ class Student
     @name = name
     @grade = grade
     @id = id
+    save
   end
 
   def self.new_from_db(row)
